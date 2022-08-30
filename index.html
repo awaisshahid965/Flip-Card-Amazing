@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flip Card | Example By Muhammad Awais</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+	<div class="container">
+		CONTENT HERE
+		<div class="box box-1">
+			<div class="x1">HOVER TO SEE</div>
+			<div class="x2">XOXO BY 1</div>
+		</div>
+		<div class="box box-2">
+			<div class="y1">XOXO BY 2</div>
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+	let box1 = document.querySelector('.box-1');
+	let box2 = document.querySelector('.box-2');
+
+	document.querySelector('.container').addEventListener('mouseenter', () => {
+		box1.classList.add('active');
+		box2.classList.add('active');
+	});
+	document.querySelector('.container').addEventListener('mouseleave', () => {
+		box1.classList.remove('active');
+		box2.classList.remove('active');
+	});
+</script>

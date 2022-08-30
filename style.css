@@ -46,9 +46,9 @@
 .x1, .x2,
 .y1,
 .container{
-display: flex;
-justify-content: center;
-align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .x1, .x2, .y1{
 	position: absolute;
